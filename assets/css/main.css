@@ -98,14 +98,6 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-.logotext{
-    position: relative;
-    margin-top: -15%;
-    font-size: 22px;
-    font-family: sans-serif;
-    color: #ffffffcf;				
-}
-
 	body {
 		background-color: #935d8c;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(84deg, #9c2727 19%, #9d00ff5c 116%);
