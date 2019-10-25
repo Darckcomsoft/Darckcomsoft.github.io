@@ -4,7 +4,7 @@ description: Darckcomsoft is Small Geme Developer.
 cover: assets/images/radhakrishna.jpg
 logo: 
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://darckcomsoft.github.io/" # the base hostname & protocol for your site
 
 pagination:
