@@ -2,9 +2,9 @@
 title: "Darckcomsoft : We Make Games"
 description: Darckcomsoft is Small Geme Developer.
 cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
+logo: 
 favicon: assets/images/favicon.png
-baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://darckcomsoft.github.io/" # the base hostname & protocol for your site
 
 pagination:
