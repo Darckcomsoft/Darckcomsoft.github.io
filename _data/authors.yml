@@ -1,16 +1,8 @@
 hanuman:
-  username: hanuman
-  name: HANUMAN
-  location: Ayodhya
-  url_full: https://hanumanchalisa.net
-  url: hanumanchalisa.net
-  bio: Jai Shri Ram!
+  username: darckcomsoft
+  name: darckcomsoft
+  location: darckcomsoft
+  url_full: https://github.com
+  url: github.com
+  bio: darckcomsoft
   assets: assets/images/hanuman.png
-krishna:
-  username: krishna
-  name: KRISHNA
-  location: Vrindavan
-  url_full: https://shriradhakrishna.com
-  url: shriradhakrishna.com
-  bio: Radhe! Radhe!
-  assets: assets/images/favicon.png
