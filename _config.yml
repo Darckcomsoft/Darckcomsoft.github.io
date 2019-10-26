@@ -18,9 +18,9 @@ pagination:
   per_page: 5
 
 # Social
-facebook: facebook/darckcomsoft
-twitter: twitter/darckcomsoft
-github:  github/darckcomsoft
+facebook: darckcomsoft
+twitter: darckcomsoft
+github:  darckcomsoft
 
 #Additional Pages
 about: about
