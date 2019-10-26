@@ -14,7 +14,7 @@ pagination:
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: false
-  permalink: '/_posts/'
+
   per_page: 5
 
 # Social
@@ -27,7 +27,6 @@ about: about
 contact: contact
 privacy-policy: privacy-policy
 
-gems: [jekyll-paginate-v2]
 
 permalink: /:title
 
