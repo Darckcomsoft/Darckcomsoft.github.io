@@ -10,7 +10,7 @@ url: "https://darckcomsoft.github.io/" # the base hostname & protocol for your s
 pagination:
 
   # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: false
+  enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: false
@@ -47,13 +47,13 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: Darckcomsoft #github username
-repo: Darckcomsoft.github.io #github repository
-branch: master #branch
-relative_source: ../darckcomsoft/ #source directory
-destination: ../darckcomsoft/ #destination directory
-production_url:  https://darckcomsoft.github.io/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+username:  #github username
+repo:  #github repository
+branch: #branch
+relative_source:  #source directory
+destination:  #destination directory
+production_url:  
+source_url:   #source repository url
 
 exclude:
   - README.md
