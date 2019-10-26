@@ -1,0 +1,83 @@
+body
+{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: #2d4255;
+}
+
+.layout-zero{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.header-site
+{
+    position: fixed;
+    background-color: #00000038;
+    width: 100%;
+}
+
+.logo-img{
+    width: 13%;
+    padding-top: 7px;
+    padding-left: 2%;
+    display: block;
+    padding-bottom: 7px;
+}
+.background-img{
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.rights-footer{
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding-top: 21px;
+    color: #ffffffad;
+    font-family: monospace;
+    font-size: 100%;
+}
+
+.contente-view{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-color: #272f4c;
+    margin-top: -4px;
+    border: 0px;
+    padding: 0px;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: #232a44;
+    margin-top: -4px;
+    border: 0px;
+    padding: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000a2;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
