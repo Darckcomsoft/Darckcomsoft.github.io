@@ -50,9 +50,9 @@ lsi: False
 username: Darckcomsoft #github username
 repo: Darckcomsoft.github.io #github repository
 branch: master #branch
-relative_source: ../master/ #source directory
-destination: ../master/ #destination directory
-production_url:  https://darckcomsoft.github.io
+relative_source: ../darckcomsoft/ #source directory
+destination: ../darckcomsoft/ #destination directory
+production_url:  https://darckcomsoft.github.io/
 source_url:  https://github.com/samanyougarg/hanuman #source repository url
 
 exclude:
