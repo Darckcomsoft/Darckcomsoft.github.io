@@ -5,7 +5,7 @@ cover: assets/images/radhakrishna.jpg
 logo: https://lh5.googleusercontent.com/7YVypcorzIhVjEZPS1-LrWitHrEGiBblj6W9U_QbEmQIapEO3loL_eSBwTSxLlwoDHIilx0FZWov8faTakOO=w1560-h768-rw
 favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://darckcomsoft.github.io/" # the base hostname & protocol for your site
+url: "https://darckcomsoft.github.io" # the base hostname & protocol for your site
 
 pagination:
 
