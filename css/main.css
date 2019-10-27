@@ -129,6 +129,14 @@
         border: 0px;
         padding: 0px;
     }
+
+    .butt-footer{
+        position: relative;
+        text-align: center;
+        display: block;
+        color: #ffffffad;
+        font-family: 'Gothic A1', sans-serif;
+    }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -205,5 +213,13 @@
         margin-top: -4px;
         border: 0px;
         padding: 0px;
+    }
+
+     .butt-footer{
+        position: relative;
+        text-align: center;
+        display: block;
+        color: #ffffffad;
+        font-family: 'Gothic A1', sans-serif;
     }
   }
