@@ -1,23 +1,5 @@
 var str = window.location.href;
 
-if (getCookie("location") != null){
-    if (str.includes("?l=BR") || getCookie("location").includes("BR")){
-       print("O site esta em construcao, talvez voce tenha problema nos dispositivos celulares.");
-       document.cookie = "location=BR; max-age=350";
-    }else{
-        print("Site is under construction, maybe on mobile devices have some problems. ");
-       document.cookie = "location=none; max-age=350";
-    }   
- }else{
-    if (str.includes("?l=BR")){
-        print("O site esta em construcao, talvez voce tenha problema nos dispositivos celulares.");
-        document.cookie = "location=BR; max-age=350";
-     }else{
-        print("Site is under construction, maybe on mobile devices have some problems. ");
-        document.cookie = "location=none; max-age=350";
-     }   
- }
-
 function getCookie(name) {
     // Split cookie string and get all individual name=value pairs in an array
     var cookieArr = document.cookie.split(";");
