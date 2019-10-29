@@ -142,6 +142,26 @@
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) 
   {
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #ffffff;
+  }
+  
+  .svg-icon circle {
+    stroke: #ffffff;
+    stroke-width: 1;
+  }
+
     body
     {
         margin: 0px;
@@ -195,7 +215,7 @@
     display: block;
     position: absolute;
     margin-top: 1.2%;
-    margin-left: 28%;
+    margin-left: 32%;
     margin-bottom: 1.1%;
 }
 
