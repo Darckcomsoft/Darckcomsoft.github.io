@@ -164,12 +164,17 @@
     }
     
     .logo-img{
-        width: 13%;
-        padding-top: 7px;
-        padding-left: 2%;
-        display: block;
-        padding-bottom: 7px;
+        width: 80%;
     }
+
+    .link-logo{
+        width: 13%;
+    padding-top: 7px;
+    padding-left: 12%;
+    display: block;
+    padding-bottom: 7px;
+    }
+
     .background-img{
         border: 0px;
         padding: 0px;
@@ -184,6 +189,24 @@
         color: #ffffffad;
         font-family: 'Gothic A1', sans-serif;
         font-size: 88%;
+    }
+
+.topmenu{
+    display: block;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 28%;
+    margin-bottom: 1.1%;
+}
+
+    .butt-head{
+        position: relative;
+    margin-left: 23px;
+    border: 10px;
+    color: #ffffff;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 115%;
+    text-decoration: none;
     }
     
     .content-view{
