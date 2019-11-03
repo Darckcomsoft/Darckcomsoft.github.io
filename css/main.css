@@ -79,11 +79,11 @@
       }
   
       .link-logo{
-          width: 13%;
-      padding-top: 7px;
-      padding-left: 12%;
-      display: block;
-      padding-bottom: 7px;
+        width: 28%;
+        padding-top: 10px;
+        padding-left: 3%;
+        display: block;
+        padding-bottom: 7px;
       }
   
       .background-img{
@@ -103,11 +103,10 @@
       }
   
   .topmenu{
-          display: block;
-      position: absolute;
-      margin-top: 1.2%;
-      margin-left: 36%;
-      margin-bottom: 1.1%;
+    display: block;
+    position: absolute;
+    margin-top: 2.2%;
+    margin-left: 26%;
   }
   
   .topmenu-button:hover {
@@ -115,15 +114,19 @@
     }
   
       .butt-head{
-          position: relative;
-      margin-left: 23px;
-      border: 10px;
-      color: #ffffff;
-      font-family: 'Gothic A1', sans-serif;
-      font-size: 115%;
-      text-decoration: none;
+        position: relative;
+        margin-left: 7px;
+        border: 10px;
+        color: #ffffff;
+        font-family: 'Gothic A1', sans-serif;
+        font-size: 70%;
+        text-decoration: none;
       }
       
+.social-button{
+  margin-left: 195px;
+}
+
       .content-view{
           height: 600px;
           width: 100%;
