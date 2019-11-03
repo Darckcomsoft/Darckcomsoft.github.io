@@ -440,7 +440,7 @@ SVG Icons - svgicons.sparkk.fr
 
     .butt-head{
         position: relative;
-    margin-left: 23px;
+    /*margin-left: 23px;*/
     border: 10px;
     color: #ffffff;
     font-family: 'Gothic A1', sans-serif;
