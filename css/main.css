@@ -122,10 +122,7 @@
         font-size: 70%;
         text-decoration: none;
       }
-      
-.social-button{
-  margin-left: 195px;
-}
+    
 
       .content-view{
           height: 600px;
@@ -192,86 +189,149 @@
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) 
   {
-    body
-    {
-        margin: 0px;
-        border: 0px;
-        padding: 0px;
-        background-color: #2d4255;
+    .svg-icon {
+      width: 1em;
+      height: 1em;
     }
     
-    .layout-zero{
-        margin: 0px;
-        border: 0px;
-        padding: 0px;
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: #ffffff;
+    }
+  
+    .svg-icon path:hover{
+      fill: #ffffffa8;
+    }
+  
+    .svg-icon polygon:hover{
+      fill: #ffffffa8;
+    }
+  
+    .svg-icon rect:hover{
+      fill: #ffffffa8;
+    }
+  
+    a:hover{
+      fill: #ffffffa8;
     }
     
-    .header-site
-    {
-        position: fixed;
-        background-color: #00000038;
-        width: 100%;
+    .svg-icon circle {
+      stroke: #ffffff;
+      stroke-width: 1;
     }
-    
-    .logo-img{
-        width: 13%;
-        padding-top: 7px;
-        padding-left: 2%;
-        display: block;
-        padding-bottom: 7px;
+  
+      body
+      {
+          margin: 0px;
+          border: 0px;
+          padding: 0px;
+          background-color: #2d4255;
+      }
+      
+      .layout-zero{
+          margin: 0px;
+          border: 0px;
+          padding: 0px;
+      }
+      
+      .header-site
+      {
+          position: fixed;
+          background-color: #00000038;
+          width: 100%;
+      }
+      
+      .logo-img{
+          width: 80%;
+      }
+  
+      .link-logo{
+          width: 13%;
+      padding-top: 7px;
+      padding-left: 12%;
+      display: block;
+      padding-bottom: 7px;
+      }
+  
+      .background-img{
+          border: 0px;
+          padding: 0px;
+          width: 100%;
+      }
+      
+      .rights-footer{
+          text-align: center;
+          margin: 0px;
+          border: 0px;
+          padding-top: 21px;
+          color: #ffffffad;
+          font-family: 'Gothic A1', sans-serif;
+          font-size: 88%;
+      }
+  
+  .topmenu{
+          display: block;
+      position: absolute;
+      margin-top: 1.2%;
+      margin-left: 36%;
+      margin-bottom: 1.1%;
+  }
+  
+  .topmenu-button:hover {
+      background-color: yellow;
     }
-    .background-img{
-        border: 0px;
-        padding: 0px;
-        width: 100%;
+  
+    .social-button{
+      margin-left: 195px;
     }
-    
-    .rights-footer{
-        text-align: center;
-        margin: 0px;
-        border: 0px;
-        padding-top: 21px;
-        color: #ffffffad;
-        font-family: 'Gothic A1', sans-serif;
-        font-size: 88%;
-    }
-    
-    .content-view{
-        height: 600px;
-        width: 100%;
-        position: relative;
-        background-color: #272f4c;
-        margin-top: -4px;
-        border: 0px;
-        padding: 0px;
-    }
-    
-    .content-aling{
-        padding-top: 5%;
-        padding-right: initial;
-        padding-bottom: 5%;
-        padding-left: 17%;
-        margin: 0px;
-        border: 0px;
-    }
-    
-    .footer{
-        height: 100px;
-        width: 100%;
-        position: relative;
-        background-color: #232a44;
-        margin-top: -4px;
-        border: 0px;
-        padding: 0px;
-    }
-
-    .butt-footer{
-        position: relative;
-        text-align: center;
-        display: block;
-        color: #ffffffad;
-        font-family: 'Gothic A1', sans-serif;
-    }
+  
+      .butt-head{
+          position: relative;
+      margin-left: 23px;
+      border: 10px;
+      color: #ffffff;
+      font-family: 'Gothic A1', sans-serif;
+      font-size: 115%;
+      text-decoration: none;
+      }
+      
+      .content-view{
+          height: 600px;
+          width: 100%;
+          position: relative;
+          background-color: #272f4c;
+          margin-top: -4px;
+          border: 0px;
+          padding: 0px;
+      }
+      
+      .content-aling{
+          padding-top: 5%;
+          padding-right: initial;
+          padding-bottom: 5%;
+          padding-left: 17%;
+          margin: 0px;
+          border: 0px;
+      }
+      
+      .footer{
+          height: 100px;
+          width: 100%;
+          position: relative;
+          background-color: #232a44;
+          margin-top: -4px;
+          border: 0px;
+          padding: 0px;
+      }
+  
+       .butt-footer{
+          position: relative;
+          text-align: center;
+          display: block;
+          color: #ffffffad;
+          font-family: 'Gothic A1', sans-serif;
+      }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -372,6 +432,10 @@ SVG Icons - svgicons.sparkk.fr
 
 .topmenu-button:hover {
     background-color: yellow;
+  }
+
+  .social-button{
+    margin-left: 195px;
   }
 
     .butt-head{
