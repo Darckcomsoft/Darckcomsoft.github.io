@@ -69,9 +69,11 @@
       
       .header-site
       {
-             position: relative;
-    background-color: #2e4b65;
+             position: fixed;
+    background-color: #0000002b;
     width: 100%;
+    margin: 0%;
+    margin-top: -56.5%;
       }
       
       .logo-img{
@@ -154,11 +156,13 @@
       }
   
        .butt-footer{
-          position: relative;
-          text-align: center;
-          display: block;
-          color: #ffffffad;
-          font-family: 'Gothic A1', sans-serif;
+              position: relative;
+    text-align: center;
+    display: block;
+    color: #ffffffad;
+    width: 7%;
+    font-family: 'Gothic A1', sans-serif;
+    margin-left: 47%;
       }
   }
 
@@ -237,9 +241,11 @@
       
       .header-site
       {
-              position: relative;
-    background-color: #2e4b65;
+                  position: fixed;
+    background-color: #0000002b;
     width: 100%;
+    margin: 0%;
+    margin-top: -56.5%;
       }
       
       .logo-img{
@@ -326,11 +332,13 @@
       }
   
        .butt-footer{
-          position: relative;
-          text-align: center;
-          display: block;
-          color: #ffffffad;
-          font-family: 'Gothic A1', sans-serif;
+              position: relative;
+    text-align: center;
+    display: block;
+    color: #ffffffad;
+    width: 7%;
+    font-family: 'Gothic A1', sans-serif;
+    margin-left: 47%;
       }
   }
   
@@ -396,9 +404,11 @@ SVG Icons - svgicons.sparkk.fr
 
     .header-site
     {
-            position: relative;
-    background-color: #2e4b65;
+               position: fixed;
+    background-color: #0000002b;
     width: 100%;
+    margin: 0%;
+    margin-top: -56.5%;
     }
     
     .logo-img{
@@ -485,10 +495,12 @@ SVG Icons - svgicons.sparkk.fr
     }
 
      .butt-footer{
-        position: relative;
-        text-align: center;
-        display: block;
-        color: #ffffffad;
-        font-family: 'Gothic A1', sans-serif;
+            position: relative;
+    text-align: center;
+    display: block;
+    color: #ffffffad;
+    width: 7%;
+    font-family: 'Gothic A1', sans-serif;
+    margin-left: 47%;
     }
   }
