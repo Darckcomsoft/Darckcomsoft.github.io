@@ -1,7 +1,3 @@
-const firebase = require("firebase");
-// Required for side-effects
-require("firebase/firestore");
-
 firebase.initializeApp({
     apiKey: "AIzaSyBv_v3wdS2FD9GLZN_en05XH4t4nclIK58",
     authDomain: "pc-appstore.firebaseapp.com",
