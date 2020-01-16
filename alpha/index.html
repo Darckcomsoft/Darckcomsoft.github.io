@@ -9,18 +9,8 @@
 		
         <link href="./css/main.css?v=fdf445" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
-
-	<!--firebaseScripts-->
-	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
-        
-	<script>
-		const firebase = require("firebase");
-		// Required for side-effects
-		require("firebase/firestore");
-	</script>
 	    
-	<script src="./js/main.js?v=14435" type="text/javascript"></script>
+	<!--<script src="./js/main.js?v=654654" type="text/javascript"></script>-->
 	    
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="height=device-height, initial-scale=1">
@@ -79,5 +69,23 @@
                     <a href="./contact" class="butt-fot">Contact</a>
                 </div>
         </div>
+	    	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+	    <script>
+		  // Your web app's Firebase configuration
+		  var firebaseConfig = {
+		    apiKey: "AIzaSyBv_v3wdS2FD9GLZN_en05XH4t4nclIK58",
+		    authDomain: "pc-appstore.firebaseapp.com",
+		    databaseURL: "https://pc-appstore.firebaseio.com",
+		    projectId: "pc-appstore",
+		    storageBucket: "pc-appstore.appspot.com",
+		    messagingSenderId: "868001724896",
+		    appId: "1:868001724896:web:0c466bb89572927e9f9385",
+		    measurementId: "G-MW5SYSWB35"
+  		};
+		  // Initialize Firebase
+		  firebase.initializeApp(firebaseConfig);
+		  firebase.analytics();
+	</script>
     </body>
 </html>
