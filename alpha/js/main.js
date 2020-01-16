@@ -10,7 +10,7 @@ firebase.initializeApp({
 
 var db = firebase.firestore();
 
-db.collection("users").get().then((querySnapshot) => {
+db.collection("apps").get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
         console.log(`${doc.id} => ${doc.data()}`);
     });
