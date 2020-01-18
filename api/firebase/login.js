@@ -37,9 +37,9 @@
     firebase.auth.PhoneAuthProvider.PROVIDER_ID
   ],
   // Terms of service url.
-  tosUrl: '/',
+  tosUrl: 'https://github.com/Darckcomsoft/Darckcomsoft-Stuff',
   // Privacy policy url.
-  privacyPolicyUrl: '/'
+  privacyPolicyUrl: 'https://github.com/Darckcomsoft/Darckcomsoft-Stuff'
 };
 
 ui.start('#firebaseui-auth-container', uiConfig);

@@ -59,14 +59,3 @@ function CreateDoc(idd)
 		document.getElementById("json").innerHTML = '{error: "you need Verifie your email/google email"}';
 	}
 }
-
-/*db.collection("users").add({
-    name: "Tokyo",
-    country: "Japan"
-})
-.then(function(docRef) {
-	document.getElementById("json").innerHTML = "Document written with ID: " + docRef.id;
-})
-.catch(function(error) {
-	document.getElementById("json").innerHTML = "Error adding document: " + error;
-});*/
