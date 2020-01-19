@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
-        "https://feeds.feedburner.com/TechCrunch/startups",
+        "https://estevaosvargas.blogspot.com/feeds/posts/default?alt=rss",
         
         {
         // how many entries do you want?
@@ -63,11 +63,11 @@ jQuery(document).ready(function($) {
     );
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "IonicaBizau");
+    new GitHubCalendar("#github-graph", "estevaosvargas");
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "mdo", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "estevaosvargas", selector: "#ghfeed" });
 
 
 });
